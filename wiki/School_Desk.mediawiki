@@ -1,0 +1,51 @@
+==Item Information==
+
+[[image:Schooldesk.jpg|right]]
+{| align="right" border="1" cellspacing="0" cellpadding="3" style="margin: 0 0 0 0.5em; background: #FFFFFF; border-collapse: collapse; border-color: #C0C090; width: 200px;"
+|- 
+| align="center" colspan="2" style="background:#ffdead;" | '''Item Details'''
+|-
+| '''Name'''
+| School Desk
+|-
+| '''Location'''
+| [[Training Room]]
+|-
+| '''Cost'''
+| 5,000
+|-
+| '''Size'''
+| [[Image:Locker.GIF]]
+|-
+| '''[[Heat]]'''
+| 2
+|-
+| '''[[Power]]'''
+| N/A
+|-
+| '''[[Wear]]'''
+| 75
+|-
+|}
+The School Desk is used to train [[Construction Worker|Construction Workers]] into [[Valet|Valets]]. It can be found in the [[Training Room]].
+
+==Training Information==
+{| align="right" border="1" cellspacing="0" cellpadding="3" style="margin: 0 0 0 0.5em; background: #FFFFFF; border-collapse: collapse; border-color: #C0C090; width: 200px;"
+|-
+| align="center" colspan="2" style="background:#ffdead;" | '''[[Training]]'''
+|-
+| '''Name'''
+| School Desk
+|-
+| '''Requires'''
+| [[Construction Worker]]
+|-
+| '''Trains'''
+| [[Valet]]
+|-
+|}
+
+The school desk trains [[Construction Worker|construction workers]] into [[valet|valets]]. He sits down while the [[valet]] makes hand gestures and pulls out books for the worker to look at.
+
+[[Category:Items]]
+[[Category:Training Equipment]]
