@@ -2,6 +2,8 @@
 title: Evil Genius Chat
 permalink: wiki/Evil_Genius_Chat/
 layout: wiki
+tags:
+ - Community
 ---
 
 [Evil Genius Chat](http://www.n1nj4.com) is the forums for [Evil
