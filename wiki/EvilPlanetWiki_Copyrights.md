@@ -18,6 +18,11 @@ The subject matter of this site is based on the game "Evil Genius" and
 some content (such as images or files from the game) may be protected by
 copyright.
 
+The Evil Planet Wiki is powered by MediaWiki (http://www.mediawiki.org).
+MediaWiki is a free server-based software, that is licensed under the
+[GNU General Public
+License](http://en.wikipedia.org/wiki/GNU_General_Public_License) (GPL).
+
 "Evil Genius"
 -------------
 

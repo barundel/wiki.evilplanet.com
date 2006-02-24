@@ -3,6 +3,8 @@ This website is copyright © Jonathan Mayer and Mark Sowash, all Rights Reserved
 
 The subject matter of this site is based on the game "Evil Genius" and some content (such as images or files from the game) may be protected by copyright.
 
+The Evil Planet Wiki is powered by MediaWiki (http://www.mediawiki.org).  MediaWiki is a free server-based software, that is licensed under the [http://en.wikipedia.org/wiki/GNU_General_Public_License GNU General Public License] (GPL). 
+
 
 == "Evil Genius" ==
 Evil Genius is a game developed by Elixir Studios, and published by Vivendi Universal Games. This website is not affiliated with either company or the game in any way - it is purely a fansite. Views expressed in this site may not reflect those of Elixir Studios, Vivendi Universal Games, or GameSpy Industries. 
