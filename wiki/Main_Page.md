@@ -34,7 +34,7 @@ organisation sorted, and others can specialise in the content.
 
 ### Text and Images
 
-Due to the closure of Elixir Studios and the precident set by [Evil
+Due to the closure of Elixir Studios and the precedent set by [Evil
 Planet](http://www.evilplanet.com), we shouldn't have any problems using
 most of the images and text we would want. Feel free to use images and
 text from Evil Planet, although it would be good to update and adapt
@@ -43,7 +43,7 @@ this as required.
 ### Standards
 
 This site isn't Wikipedia, but it doesn't mean that we can't have at
-reasonable level of standards. Please write in full sentances and use
-proper punctutation! Don't also forget that Elixir Studios and Evil
+reasonable level of standards. Please write in full sentences and use
+proper punctuation! Don't also forget that Elixir Studios and Evil
 Genius are British, so it's perfectly acceptable to use both British
 English and American English spelling.
