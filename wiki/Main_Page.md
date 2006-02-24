@@ -4,7 +4,15 @@ permalink: wiki/Main_Page/
 layout: wiki
 ---
 
-Welcome to our Evil Planet Wiki!
+Welcome to our Evil Planet Wiki! This site can only be as good as its
+members and content, so go ahead and sign up and create some content
+based around the game. We need info about all the characters, the
+islands, the levels, the team behind it and the community. Be brave and
+make some pages - they can always be edited and organised in time.
+
+You may want to check out
+[Special:Allpages](/wiki/Special:Allpages "wikilink") to find which pages have
+been made already.
 
 A few notes
 -----------
