@@ -5,3 +5,5 @@ It is the sister site to this wiki.
 == External Links ==
 
 * [http://www.evilplanet.com Evil Planet]
+
+[[Category:Community]]

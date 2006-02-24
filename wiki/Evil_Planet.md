@@ -2,6 +2,8 @@
 title: Evil Planet
 permalink: wiki/Evil_Planet/
 layout: wiki
+tags:
+ - Community
 ---
 
 [Evil Planet](http://www.evilplanet.com) is a website set up by
