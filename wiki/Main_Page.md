@@ -10,3 +10,8 @@ Welcome to our Evil Planet Wiki!
 We hope you enjoy our site. As you may know, wiki-sites are at their
 best when everyone pitches in to create a great resource. Play nicely
 and this'll be a great resource for Evil Genius fans.
+
+### Testing
+
+Please use your personal user pages and their talk pages to practise
+using wiki code. You'll need to sign up before you can do this.
