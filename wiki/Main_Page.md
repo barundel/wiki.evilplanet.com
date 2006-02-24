@@ -31,9 +31,9 @@ using wiki code. You'll need to sign up before you can do this.
 I am aware that this site will naturally evolve but it will be useful
 for get all pages that are created in some sort of order so they
 maintain the same look and feel, and are easy to navigate. For example,
-it would be good to have the page for [Valets](/wiki/Valets "wikilink") to be
+it would be good to have the page for [Valets](/wiki/Valet "wikilink") to be
 similar to the one for [Construction
-Workers](/wiki/Construction_Workers "wikilink") in layout. These would then be
+Workers](/wiki/Construction_Worker "wikilink") in layout. These would then be
 indexed in a page such as [List of Minion
 Types](/wiki/List_of_Minion_Types "wikilink").
 
