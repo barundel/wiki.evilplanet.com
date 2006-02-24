@@ -1,4 +1,3 @@
-Wiki software successfully installed.
+==Welcome to our Evil Planet Wiki!==
 
-Please see [http://meta.wikipedia.org/wiki/MediaWiki_i18n documentation on customizing the interface]
-and the [http://meta.wikipedia.org/wiki/MediaWiki_User%27s_Guide User's Guide] for usage and configuration help.
+We hope you enjoy our site. As you may know, wiki-sites are at their best when everyone pitches in to create a great resource. Play nicely and this'll be a great resource for Evil Genius fans.
