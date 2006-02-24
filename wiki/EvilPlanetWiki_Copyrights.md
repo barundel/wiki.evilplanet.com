@@ -4,6 +4,9 @@ permalink: wiki/EvilPlanetWiki:Copyrights/
 layout: wiki
 ---
 
+Legal Information
+=================
+
 Copyright
 ---------
 
