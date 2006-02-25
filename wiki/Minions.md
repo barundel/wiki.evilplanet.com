@@ -2,39 +2,41 @@
 title: Minions
 permalink: wiki/Minions/
 layout: wiki
+tags:
+ - Characters
 ---
 
-*Construction Worker*
+This page list all the minion types you are able to employ (well, order
+around) in [Evil Genius](/wiki/Evil_Genius "wikilink").
 
-**Military:**
+Minions
+=======
 
-*Guard*
+General
+-------
 
-*Mercenary*
+[Construction Worker](/wiki/Construction_Worker "wikilink")
 
-*Marksman*
+Military
+--------
 
-*Martial Artist*
+-   [Guard](/wiki/Guard "wikilink")
+-   [Mercenary](/wiki/Mercenary "wikilink")
+-   [Marksman](/wiki/Marksman "wikilink")
+-   [Martial Artist](/wiki/Martial_Artist "wikilink")
 
-**Science:**
+Science
+-------
 
-*Technician*
+-   [Technician](/wiki/Technician "wikilink")
+-   [Scientist](/wiki/Scientist "wikilink")
+-   [Biochemist](/wiki/Biochemist "wikilink")
+-   [Quantum Physicist](/wiki/Quantum_Physicist "wikilink")
 
-*Scientist*
+Social
+------
 
-*Biochemist*
-
-*Quantum Physicist*
-
-**Social:**
-
-*Valet*
-
-*Spindoctor*
-
-*Playboy*
-
-*Diplomat*
-
-(I divided it into sections of course. Each minion should have a page
-with a description, I say.)
+-   [Valet](/wiki/Valet "wikilink")
+-   [Spindoctor](/wiki/Spindoctor "wikilink")
+-   [Playboy](/wiki/Playboy "wikilink")
+-   [Diplomat](/wiki/Diplomat "wikilink")

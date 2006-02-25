@@ -1,55 +1,30 @@
-''Construction Worker''
+This page list all the minion types you are able to employ (well, order around) in [[Evil Genius]].
 
+=Minions=
 
+==General==
 
-'''Military:'''
+[[Construction Worker]]
 
+==Military==
 
+*[[Guard]]
+*[[Mercenary]]
+*[[Marksman]]
+*[[Martial Artist]]
 
-''Guard''
+==Science==
 
+*[[Technician]]
+*[[Scientist]]
+*[[Biochemist]]
+*[[Quantum Physicist]]
 
-''Mercenary''
+==Social==
 
+*[[Valet]]
+*[[Spindoctor]]
+*[[Playboy]]
+*[[Diplomat]]
 
-''Marksman''
-
-
-''Martial Artist''
-
-
-
-'''Science:'''
-
-
-
-''Technician''
-
-
-''Scientist''
-
-
-''Biochemist''
-
-
-''Quantum Physicist''
-
-
-
-'''Social:'''
-
-
-''Valet''
-
-
-''Spindoctor''
-
-
-''Playboy''
-
-
-''Diplomat''
-
-
-
-(I divided it into sections of course. Each minion should have a page with a description, I say.)
+[[Category:Characters]]
