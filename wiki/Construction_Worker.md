@@ -2,6 +2,8 @@
 title: Construction Worker
 permalink: wiki/Construction_Worker/
 layout: wiki
+tags:
+ - Characters
 ---
 
 The construction worker is the lowest form of
