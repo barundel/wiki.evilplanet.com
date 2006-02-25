@@ -15,6 +15,8 @@ Details About The Game
 
 **Henchmen**
 
+**Agents**
+
 The above should be made into links to their pages, which I would do
 myself, if I knew how to make a page, then link it here....
 
