@@ -21,6 +21,13 @@ We hope you enjoy our site. As you may know, wiki-sites are at their
 best when everyone pitches in to create a great resource. Play nicely
 and this'll be a great resource for Evil Genius fans.
 
+### NEW: Creating internal links
+
+To create an internal link, all you have to do is put "\[ \[" and "\[
+\]" (no spaces) around the words; the full addy is not needed. Take a
+look at the source of this page for an example. The http bit is NOT
+NEEDED.
+
 ### Testing
 
 Please use your personal user pages and their talk pages to practise
