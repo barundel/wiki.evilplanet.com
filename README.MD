@@ -1,0 +1,1 @@
+Restored Wiki is here http://185.38.44.163/~evilplan/wiki/index.php?title=Main_Page
