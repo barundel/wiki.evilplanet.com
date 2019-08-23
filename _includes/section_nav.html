@@ -1,0 +1,51 @@
+{% comment %}
+    Map grabs the doc sections, giving us an array of arrays. Join, flattens all
+    the items to a comma delimited string. Split turns it into an array again.
+{% endcomment %}
+
+{% assign wiki = site.data.wiki | map: 'wiki' | join: ',' | split: ',' %}
+
+{% comment %}
+    Because this is built for every page, lets find where we are in the ordered
+    document list by comparing url strings. Then if there's something previous or
+    next, lets build a link to it.
+{% endcomment %}
+
+{% for document in wiki %}
+    {% assign document_url = document | prepend:"/wiki/" | append:"/" %}
+        {% if document_url == page.url %}
+    
+            <div class="sections-nav row justify-content-between">
+
+                {% if forloop.first %}
+                    <a href="#" class="sections-nav-link btn btn-outline-secondary disabled previous" tabindex="-1" role="button" aria-disabled="true">
+                        <span aria-hidden="true">&larr;</span> Previous
+                    </a>
+                {% else %}
+                    {% assign previous = forloop.index0 | minus: 1 %}
+                    {% assign previous_page = wiki[previous] | prepend:"/wiki/" | append:"/" %}
+
+                    <a href="{{ previous_page | prepend: site.baseurl }}" class="sections-nav-link btn btn-outline-secondary previous" role="button">
+                        <span aria-hidden="true">&larr;</span> Previous
+                    </a>
+                {% endif %}
+
+                {% if forloop.last %}
+                    <a href="#" class="sections-nav-link btn btn-outline-secondary disabled next" tabindex="-1" role="button" aria-disabled="true">
+                        Next <span aria-hidden="true">&rarr;</span>
+                    </a>                
+                {% else %}
+                    {% assign next = forloop.index0 | plus: 1 %}
+                    {% assign next_page = wiki[next] | prepend:"/wiki/" | append:"/" %}
+
+                    <a href="{{ next_page | prepend: site.baseurl }}" class="sections-nav-link btn btn-outline-secondary next" role="button">
+                        Next <span aria-hidden="true">&rarr;</span>
+                    </a>                    
+                {% endif %}
+
+            </div>
+
+    <div class="clear"></div>
+    {% break %}
+  {% endif %}
+{% endfor %}

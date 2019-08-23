@@ -1,0 +1,15 @@
+- title: Getting Started
+  wiki:
+  - home
+  - themes
+  - customization
+
+- title: Guides
+  wiki:
+  - guide
+
+- title: Examples
+  wiki:
+  - cheatsheet
+  - font-awesome
+  - bootstrap

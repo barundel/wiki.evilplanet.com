@@ -1,0 +1,29 @@
+.docs-container {
+    padding-top: 40px;
+}
+
+.docs-item {
+    margin-bottom: 12px;
+}
+
+.docs-item-link {
+    display: block;
+    &:hover {
+        background-color: #f8f9fa;
+    }
+    &.active {
+        &:hover {
+            background-color: #007bff;
+        }
+    }
+}
+
+.sections-nav {
+    margin: 23px 0;
+}
+
+.sections-nav-link {
+    color: #007bff;
+    border-color: #868e96;
+    border-radius: 15px;
+}

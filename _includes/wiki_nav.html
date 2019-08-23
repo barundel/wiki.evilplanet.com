@@ -1,0 +1,29 @@
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+    {% for section in site.data.wiki %}
+        <div class="card docs-item">
+
+            <h4 class="card-header bg-light">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-{{forloop.index}}" aria-expanded="false" aria-controls="collapse-{{forloop.index}}">
+                    {{ section.title }}
+                </a>
+            </h4>
+
+            <div id="collapse-{{forloop.index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <ul class="list-group list-group-flush">
+                    {% for item in section.wiki %}
+                    
+                        {% assign item_url = item | prepend:"/wiki/" | append:"/" %}
+                        {% assign p = site.wiki | where:"url", item_url | first %}
+
+                        <a class="list-group-item docs-item-link{% if item_url == page.url %} active{% endif %}" href="{{ p.url  | prepend: site.baseurl }}">{{ p.title }}</a>
+
+                    {% endfor %}
+                </ul>
+            </div>
+
+        </div>
+    {% endfor %}
+
+</div>
+        
