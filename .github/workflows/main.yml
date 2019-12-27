@@ -1,15 +1,16 @@
-name: CI
+name: Build Site
 
 on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v1
-    - name: Run a one-line script
+    - uses: actions/checkout@master
+    - name: Build Site
       run: |
-        gem install jekyll bundler
-        jekyll build
+        gem install bundler
+        gem install bundler jekyll
+        bundle exec jekyll build
+    container:
+      image: ruby:2.6.4
