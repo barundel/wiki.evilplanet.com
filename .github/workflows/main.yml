@@ -19,7 +19,8 @@ jobs:
         gem install bundler jekyll
         bundle install
         bundle exec jekyll build
-        python --v
+        python --version
+        pip3 install awscli --upgrade --user
         aws s3 ls
         ls -la
     container:
