@@ -8,6 +8,12 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
+      - name: Setup Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: "3.x"
+          architecture: "x64"
+
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
@@ -22,5 +28,7 @@ jobs:
           gem install bundler jekyll
           bundle install
           bundle exec jekyll build
-    container:
-      image: ruby:2.6.4
+
+      - name: copy site to S3
+        run: |
+          aws s3 ls
