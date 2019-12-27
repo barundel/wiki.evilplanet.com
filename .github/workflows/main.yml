@@ -13,8 +13,6 @@ jobs:
         gem install bundler jekyll
         bundle install
         bundle exec jekyll build
-    container:
-      image: ruby:2.6.4
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
@@ -24,3 +22,5 @@ jobs:
       run: |
         aws s3 ls
         ls -la
+    container:
+      image: ruby:2.6.4
