@@ -19,6 +19,7 @@ jobs:
         gem install bundler jekyll
         bundle install
         bundle exec jekyll build
+        python --v
         aws s3 ls
         ls -la
     container:
