@@ -6,25 +6,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v1
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: us-east-2
-    - uses: actions/setup-python@v1
-      with:
-        python-version: '3.x'
-    - name: Build Site
-      run: |
-        gem install bundler
-        gem install bundler jekyll
-        bundle install
-        bundle exec jekyll build
-        python --version
-        pip3 install awscli --upgrade --user
-        aws s3 ls
-        ls -la
+      - uses: actions/checkout@master
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-1
+          mask-aws-account-id: true
+
+      - name: Build Site
+        run: |
+          gem install bundler
+          gem install bundler jekyll
+          bundle install
+          bundle exec jekyll build
     container:
       image: ruby:2.6.4
