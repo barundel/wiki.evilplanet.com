@@ -7,3 +7,8 @@ Site will be on http://localhost:4000
                 
                 
 export PATH=/usr/local/opt/ruby/bin:$PATH
+
+
+gem install jekyll-imagemagick
+
+bundle exec jekyll serve

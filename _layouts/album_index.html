@@ -1,0 +1,30 @@
+---
+layout: default
+page_type: album
+---
+
+<div class="container page-container">
+
+    <h1 class="page-heading">{{- page.title | replace: '-', ' ' | capitalize -}}</h1>
+    
+    {%- assign gallery_images = page.images -%}
+
+    {%- assign gallery_images_size = gallery_images | size -%}
+
+    {%- assign cols_classes = 'col-12 col-sm-6' -%}
+
+    {%- if gallery_images_size > 2 -%}
+        {%- assign cols_classes = 'col-12 col-sm-6 col-md-4' -%}
+    {%- endif -%}
+
+    <div class="row gallery-wrapper gallery-index-wrapper">
+        {%- for image in gallery_images -%}
+            <div class="{{ cols_classes }} gallery-item">
+                <a class="gallery-link" href="{{- image.src | relative_url -}}">
+                    {% image album_thumb {{ image.src }} %}
+                </a>
+            </div>
+        {%- endfor -%}
+    </div>	
+
+</div>

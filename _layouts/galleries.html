@@ -1,0 +1,35 @@
+---
+layout: default
+page_type: albums
+---
+
+<div class="container page-container">
+
+    <h1 class="page-heading">Galleries</h1>
+
+    {%- assign gallery_pages = site.pages | where: 'page_type', 'album' -%}
+
+    {%- assign gallery_pages_size = gallery_pages | size -%}
+
+    {%- assign cols_classes = 'col-12 col-sm-6' -%}
+
+    {%- if gallery_pages_size > 2 -%}
+        {%- assign cols_classes = 'col-12 col-sm-6 col-md-4' -%}
+    {%- endif -%}
+    
+    <div class="row gallery-wrapper">
+        {%- for page in gallery_pages -%}
+            {%- assign first_image = page.images | first -%}
+            <div class="{{ cols_classes }} gallery-item">
+                <a class="gallery-link" href="{{- page.url | relative_url -}}">
+                    {% image album_thumb {{ first_image.src }} %}
+                    <h2 class="gallery-thumb-title page-heading-l-2">{{- page.title | replace: '-', ' ' | capitalize -}}</h2>
+                </a>
+                <em class="gallery-meta">
+                    {{ page.images | size }} images
+                </em>
+            </div>
+        {%- endfor -%}
+    </div>
+
+</div>

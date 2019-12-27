@@ -1,11 +1,42 @@
-<header id="header">
-  <div class="container">
-    <div class="navbar-backdrop">
-      <div class="navbar">
-        <div class="navbar-left m-auto text-center">
-          <a href="{{ '/' | relative_url }}" class="logo" title="EvilPlanet"><img src="{{ '/assets/img/logo.png' | relative_url }}" class="img-fluid" alt="Evil Planet"></a>
+<header id="header" class="clearfix">
+  <nav class="navbar navbar-light navbar-expand-lg fixed-top">
+    <div class="container">
+
+      <a class="navbar-brand navbar-logo" href="{{ '/' | relative_url }}" class="logo" title="EvilPlanet">
+        <img src="{{ '/assets/img/logo.png' | relative_url }}" class="img-fluid" alt="Evil Planet">
+      </a>
+
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse navbar-items-wrapper" id="navbarCollapse">
+        <ul class="navbar-nav navbar-nav-items">
+          {%- for item in site.data.menu.items -%}
+
+            {%- assign is_active = false -%}
+            {%- if item.url == page.url -%}
+              {%- assign is_active = true -%}
+            {%- endif -%}
+
+            {%- assign is_wiki = false -%}
+            {%- if item.url contains 'wiki' and page.url contains 'wiki' -%}
+              {%- assign is_wiki = true -%}                
+            {%- endif -%}
+
+            <li class="nav-item{% if is_active or is_wiki %} active{% endif %}">
+              <a class="nav-link" href="{{- item.url | relative_url -}}">
+                {{ item.title }}{% if is_active or is_wiki %} <span class="sr-only">(current)</span>{% endif %}
+              </a>
+            </li>
+          {%- endfor -%}
+        </ul>
+        <div class="gsearch">
+          {%- include google-search.html -%}
         </div>
+
       </div>
+
     </div>
-  </div>
+  </nav>
 </header>

@@ -51,7 +51,21 @@ plugins:
   - jekyll-feed
 
 sass:
-  style: compressed  
+  style: compressed
+
+permalink: pretty
+
+image:
+    output: generated
+    presets:
+        album_thumb:
+            width: 400
+            attr:
+                class: gallery-image-thumb img-fluid img-thumbnail
+        medium:
+            width: 1200
+            attr:
+                class: gallery-image img-fluid
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

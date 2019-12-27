@@ -1,0 +1,9 @@
+.gsearch {
+    @media (min-width: 992px) {
+        flex: 5;
+    }
+    .gsc-control-cse {
+        background-color: transparent;
+        border: none;
+    }
+}

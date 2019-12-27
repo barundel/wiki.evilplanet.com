@@ -1,0 +1,52 @@
+#header {
+
+    .navbar {
+
+        .navbar-logo {
+            margin-right: 2rem;
+        }
+        
+        .navbar-nav-items {
+            @media (min-width: 992px) {
+                flex: 6;
+            }
+        }
+
+        .nav-link {
+            color: $logo-color;
+            font-size: 20px;
+            padding: .5rem .9rem;
+        }
+
+        .nav-item {
+
+            margin-top: 16px;
+            &:last-child {
+                margin-bottom: 6px;
+                margin-right: 0;
+            }
+            
+            @media (min-width: 992px) {
+                margin-right: 10px;
+                margin-top: 0;
+                &:last-child {
+                    margin-bottom: 0;
+                    margin-right: 0;
+                }                
+            }
+            
+            &.active,
+            &:hover {
+                background-color: $logo-color;
+                border-radius: 6px;                
+                .nav-link {
+                    color: #fff;
+                }
+            }
+            
+        }
+        
+
+    }
+
+}

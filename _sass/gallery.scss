@@ -1,0 +1,26 @@
+.gallery-wrapper {
+    margin-bottom: 26px;
+}
+
+.gallery-image-thumb {
+    background-color: transparent;
+}
+
+.gallery-item {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.gallery-thumb-title {
+    margin-bottom: 0;
+    transition: color .2s linear;
+}
+
+.gallery-link {
+    display: block;
+    &:hover {
+        .gallery-thumb-title {
+            color: lighten(#4f4f4f, 15%);
+        }
+    }
+}

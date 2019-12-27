@@ -2,37 +2,32 @@
 
   <div class="container">
 
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=170735009788110&autoLogAppEvents=1"></script>
+    <!-- /Facebook -->
+
     <div class="row justify-content-between">
-      
+
       <div class="col-sm-12 col-md-5">
         <h4 class="footer-title">About EvilPlanet</h4>
-        <p>About EvilPlanet Setup in 2003 EvilPlanet is a community dedicated to the video game Evil Genius, a mix of RTS and Simulation Evil Genius is a truly unique and brilliant game that stands the test of time. Released in 2004 in captured our evil imaginations and allowed us to plan nefarious schemes of world domination</p>
+        <p>Setup in 2003 EvilPlanet is a community dedicated to the video game Evil Genius, a mix of RTS and Simulation Evil Genius is a truly unique and brilliant game that stands the test of time. Released in 2004 it captured our evil imaginations and allowed us to plan nefarious schemes of world domination.</p>
+        <img src="/assets/img/s3.png"   alt="Evil Genius" height="40" width="40" ALIGN=”left” style="margin:0px 5px"> <i>Hosted on AWS S3 by </i>  <a href="https://twitter.com/arundel_ben?ref_src=twsrc%5Etfw" data-show-count="false">@arundel_ben</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
       </div>
       <div class="col-sm-12 col-md-4">
-        <h4 class="footer-title">Subscribe</h4>
-        <p>Subscribe to our newsletter and get notification when new games are available.</p>
 
-          <!-- Begin MailChimp Signup Form -->
-          <div id="mc_embed_signup">
-          <form action="https://evilgenius2.us7.list-manage.com/subscribe/post?u=7febe5f7817f75d760529b9a6&amp;id=236308c38b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <div id="mc_embed_signup_scroll">
-            <div class="input-group m-t-25"><input type="email" value="" name="EMAIL" id="mce-EMAIL" class="form-control" placeholder="Email" required>
-            <span class="input-group-btn"><input type="submit" class="btn btn-primary" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"></span>
-            </div>
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input   type="text" name="b_7febe5f7817f75d760529b9a6_236308c38b" tabindex="-1" value=""></div>
-          </form>
-          </div>
+        <div class="fb-page" data-href="https://www.facebook.com/evilgenius2/" data-width="500px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/evilgenius2/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/evilgenius2/">Evil Genius 2</a></blockquote></div>
 
-        </div>
-
-        <!--End mc_embed_signup-->
 
       </div>
 
     </div>
 
     <div class="footer-bottom">
-      <p><a href="index.html" title="EvilPlanet">EvilPlanet</a> 2013 to 2017.<br/> In NO way affiliated with Elixir Studios, Vivendi, Sierra or Rebellion<br/><a href="mailto:webmaster@evilplanet.com" title="webmaster@evilplanet.com" class="d-block">webmaster@evilplanet.com</a></p>
+      <p><a href="{{- '/' | relative_url -}}" title="EvilPlanet">EvilPlanet</a> 2003 to <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script>.<br/> In NO way affiliated with Elixir Studios, Vivendi, Sierra or Rebellion<br/><a href="mailto:webmaster@evilplanet.com" title="webmaster@evilplanet.com" class="d-block">webmaster@evilplanet.com</a></p>
     </div>
 
   </div>
