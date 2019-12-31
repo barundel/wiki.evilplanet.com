@@ -33,3 +33,4 @@ jobs:
         run: |
           aws s3 ls
           aws s3 cp _site s3://dev.evilplanet.com/ --recursive
+          aws cloudfront create-invalidation --distribution-id E3A66E163SNJER --paths "/*"

@@ -6,6 +6,33 @@
 
 The repository is split into two main parts, under infrastructure the terragrunt for building the underling AWS resources is held. The rest of the repository is the Jekyll source for the website itself. 
 
+## Contributing
+
+This website is built using Jekyll, first thing to do is install it https://jekyllrb.com/docs/ and ensure you can run your own jekyll site. 
+
+When your happy with Jekyll CD into the this repository and run:
+
+`
+bundle exec jekyll serve
+`
+
+The site should generate locally:
+
+```
+bundle exec jekyll serve
+Configuration file: /Users/user/projectsv2/wiki.evilplanet.com/_config.yml
+            Source: /Users/user/projectsv2/wiki.evilplanet.com
+       Destination: /Users/user/projectsv2/wiki.evilplanet.com/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 3.734 seconds.
+ Auto-regeneration: enabled for '/Users/user/projectsv2/wiki.evilplanet.com'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+```
+
+
+## Notes
 
 https://dev.evilplanet.com/
 
@@ -18,7 +45,6 @@ Site will be on http://localhost:4000
                 
                 
 export PATH=/usr/local/opt/ruby/bin:$PATH
-
 
 gem install jekyll-imagemagick
 
