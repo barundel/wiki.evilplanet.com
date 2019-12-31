@@ -32,3 +32,4 @@ jobs:
       - name: copy site to S3
         run: |
           aws s3 ls
+          aws s3 cp _site s3://dev.evilplanet.com/ --recursive

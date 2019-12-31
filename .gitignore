@@ -1,3 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
+.terraform
+terraform.tfstate*
+.terragrunt-cache/
